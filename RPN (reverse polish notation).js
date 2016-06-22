@@ -4,7 +4,6 @@ RPN=q=>{
     o="+-*/%^"
     s=[]
     for (i of r)
-        w=i,
-        ~o.indexOf(w)?(p=s.length-2,u=w=="^"?"Math.pow("+s[p]+","+s[p+1]+")":s[p]+w+s[p+1],s.pop(),s.pop(),s.push(eval(u))):s.push(w)
+        ~o.indexOf(i)?(p=s.length-2,u=i=="^"?"Math.pow("+s[p]+","+s[p+1]+")":s[p]+i+s[p+1],s.pop(),s.pop(),s.push(eval(u))):s.push(i)
     return ~~s[0]
 }
