@@ -1,6 +1,6 @@
 //https://codefights.com/challenge/a9NhJYdzoBBPnxMJs/main
 
-/*Deveria funcionar. Não sei porque não funciona...
+/*Deveria funcionar. Não sei por que não funciona...
  *Agora sei!
  */
 GalaxyAZ=(n,b)=>n.toString(91-b.charCodeAt()).replace(/[a-z]/g,a=>String.fromCharCode(90-(a.charCodeAt()-97)))
