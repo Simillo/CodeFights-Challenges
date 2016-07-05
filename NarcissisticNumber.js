@@ -1,0 +1,11 @@
+//https://codefights.com/challenge/3eZwiyP6btWXDxohS/main
+r=[]
+NarcissisticNumber=(s,f)=>
+    eval(`
+    for(i=s;i<=f;i++){
+        n=i+''
+        l=n.length
+        for(q=u=0;q<l;q++)
+            u+=Math.pow(n[q],l)
+        u^i?0:r.push(i)
+    }r`)
