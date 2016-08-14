@@ -2,9 +2,9 @@
 maxBits = n => {
     c = n
     q = m(n)
-    while(1) {
+    while (1) {
         u = m(c)
-        if (q[0] == u[0] && q[1] == u[1])
+        if (q.join`` == u.join``)
             h = c
         else if (l(n) != l(c))
             return h
