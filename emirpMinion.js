@@ -8,7 +8,7 @@ emirpMinion=n=> {
             p = n.substring(o,c),
             s+=p-1&&f(p)&&f([...p].reverse().join``)?+p:0
         
-    return !s?-1:s
+    return s?s:-1
             
 }
 f=n=>{
