@@ -2,7 +2,7 @@
 int DigitSumRange(int a, int b) {
     int s=0;
     for(;a<=b;){
-        int c=a;
+        int c=a++;
         while(c){
             s+=c%10;
             c/=10;
