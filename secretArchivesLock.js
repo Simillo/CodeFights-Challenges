@@ -1,4 +1,5 @@
 //https://codefights.com/challenge/tuX9NefHfwnPBFZoW/
+
 "use strict";
 
 function secretArchivesLock(lock, actions) {
@@ -89,7 +90,7 @@ class SAL {
             let counter = 0;
             for(let j = 0; j < lock.length; ++j) {
                 if(j < lock.length - letters.length) {
-                    this.lock[j] += '.'
+                    this.lock[j] += '.';
                 } else {
                     this.lock[j] += letters[counter++];
                 }
@@ -114,7 +115,7 @@ class SAL {
             let counter = 0;
             for(let j = 0; j < lock.length; ++j) {
                 if(j >= letters.length) {
-                    this.lock[j] += '.'
+                    this.lock[j] += '.';
                 } else {
                     this.lock[j] += letters[counter++];
                 }
